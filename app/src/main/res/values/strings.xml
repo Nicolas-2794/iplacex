@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppEmpleados-v1</string>
+    <string name="title_activity_empleado">Empleado</string>
+    <string name="title_activity_empleado_honorarios">EmpleadoHonorarios</string>
+    <string name="title_activity_empleado_regular">EmpleadoRegular</string>
+    <string name="title_activity_honorarios">HonorariosActivity</string>
+</resources>

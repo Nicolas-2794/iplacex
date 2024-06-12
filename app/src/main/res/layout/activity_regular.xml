@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_tertiary30"
+    tools:context=".RegularActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tituloTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empleado Contrato Regular"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/segundoTituloTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresar sueldo bruto"
+            android:textSize="22sp"
+            android:paddingTop="16dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/sueldoBrutoEditText"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:hint="Sueldo Bruto"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/calcularButton"
+            android:layout_width="322dp"
+            android:layout_height="67dp"
+            android:text="Calcular sueldo liquido" />
+
+        <TextView
+            android:id="@+id/resultadoTextView"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Sueldo Líquido:"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/volverButton"
+            android:layout_width="322dp"
+            android:layout_height="60dp"
+            android:text="Regresar al Inicio" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
